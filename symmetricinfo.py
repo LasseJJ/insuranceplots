@@ -54,6 +54,7 @@ full_insurance_g = (W0 - p_g * L, W0 - p_g * L)
 
 # Initialize the Dash app
 app = Dash(__name__)
+server = app.server
 
 # Static figure setup
 fig = go.Figure()
